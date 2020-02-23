@@ -14,3 +14,6 @@ Zaproszenie do newslettera. Komponent przyjmuje przez props wartość i wyświet
 
 ### -zad.5
 Komponent przyjmujący przez props: kolor oraz częstotliwość mrugania.
+
+### -zad.6
+Komponent przechowujący w state aktualną datę, co sekunde aktualizuje ją na aktualną.

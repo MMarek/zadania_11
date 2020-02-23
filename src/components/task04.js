@@ -4,7 +4,6 @@ class Modal extends Component{
     constructor(props) {
         super(props);
         this.state = {
-            // text: this.props.heading,
             modalOpen: false,
             heading: null
         };
@@ -30,8 +29,6 @@ class Modal extends Component{
 
     render() {
         return (
-        // if (!this.state.modalOpen) return null;
-        // return <h1>{this.state.text}</h1>
         <div>
             <h1>Test okna modalnego</h1>
             <h2>{this.state.heading}</h2>
