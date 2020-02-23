@@ -4,14 +4,14 @@ class HelloWorld extends Component{
     constructor(props) {
         super(props);
         this.state = {
-            text: 'Hello World'
+            text: 'Tekst który zniknie po pięciu sekundach'
         }
     }
 
     componentDidMount() {
         this.timer = setTimeout(() => {
             this.setState({
-                text: 'Hi, Everyone'
+                text: 'Tekst który pojawił się po pięciu sekundach'
             })
         }, 5000)
     }
