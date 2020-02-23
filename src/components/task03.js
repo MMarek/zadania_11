@@ -12,26 +12,32 @@ class TextTyper extends Component{
         const {text} = this.props;
         let counter = this.state.lettersToShow;
 
-        this.intervalId = setInterval(() => {
-            counter++;
-            if (counter >= text.length) {
-                clearInterval(this.intervalId);
-            }
+        this.interval = setInterval(() => {
             this.setState({
-                lettersToShow: counter
-            })
-        },1000)
+            }, () => {
+                counter++;
+                this.setState({
+                    lettersToShow: counter
+                });
+
+                if (counter >= text.length) {
+                    clearInterval(this.interval);
+                }
+            });
+        },1000);
     }
 
     componentWillUnmount() {
-        clearInterval(this.intervalId);
+        clearInterval(this.interval);
     }
 
     render() {
         const {lettersToShow} = this.state;
-        const {text} = this.state;
+        const {text} = this.props;
 
-        return <h1>{text.substr(0, lettersToShow)}</h1>
+        return (
+            <h1>{text.substr(0, lettersToShow)}</h1>
+        );
     }
 }
 
