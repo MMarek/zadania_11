@@ -25,4 +25,18 @@ class StrobeLight extends Component{
             })
         }, this.state.frequency)
     }
+
+    render() {
+        return(
+            <div style={{width: '500px', height: '50px', backgroundColor: this.state.color}}>
+
+            </div>
+        )
+    }
 }
+
+function Task05() {
+    return<StrobeLight color={"blue"} frequency={400}/>
+}
+
+export default Task05;
