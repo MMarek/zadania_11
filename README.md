@@ -26,3 +26,6 @@ Przyciski z napisem `Klik`. Po kliknięciu:
  
 ### -zad.8
 Przycisk - po najechaniu w konsoli wyświetla się informacja o tej akcji.
+
+### -zad.9
+Przycisk - wyświetlający w konsoli co akcje przeprowadzoną na nim
