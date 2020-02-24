@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-class Button extends Component {
+class Buttons extends Component {
     state = {
         textToShow: null
     };
@@ -21,20 +21,28 @@ class Button extends Component {
         });
     };
 
+    handleClickWindowInfo = () => {
+        console.log(this);
+        this.setState({
+            textToShow: `Window height: ${window.innerHeight} width: ${window.innerWidth}`
+        });
+    };
+
     render() {
-        let textToShowJsx = this.state.texrToShow ? <h1>{this.state.textToShow}</h1> : null;
+        let textToShowJsx = this.state.textToShow ? <h1>{this.state.textToShow}</h1> : null;
         return (
             <>
                 {textToShowJsx}
-                <button onClick={(event) => this.handleClickAndShowInfo(event, "Marek")}>Klik</button>
+                <button onClick={(event) => this.handleClickAndShowInfo(event, " Ciebie :)")}>Klik</button>
                 <button onClick={this.handleClickMathButton}>Klik</button>
+                <button onClick={this.handleClickWindowInfo}>Klik</button>
             </>
         )
     }
 }
 
 function Task07() {
-    return <Button/>
+    return <Buttons/>
 }
 
 export default Task07;
