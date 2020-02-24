@@ -29,3 +29,6 @@ Przycisk - po najechaniu w konsoli wyświetla się informacja o tej akcji.
 
 ### -zad.9
 Przycisk - wyświetlający w konsoli co akcje przeprowadzoną na nim
+
+### -zad.10
+Przycisk, który zmienia swoje tło po kliknięciu. (imitacja żarówki)
