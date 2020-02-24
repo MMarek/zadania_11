@@ -35,3 +35,6 @@ Przycisk, który zmienia swoje tło po kliknięciu. (imitacja żarówki)
 
 ### -zad.11
 Menu - po kliknięciu rozwija swoją zawartość
+
+### -zad.12
+Dwa obiekty które zmieniają rozmiar oraz kolor po najechaniu kursorem, oraz wracają po zjechaniu tym kursorem z jednego z nich
