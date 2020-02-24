@@ -1,4 +1,4 @@
-# Zestaw zadań wykonanych w React.
+# Zestaw zadań wykonanych w React. Większość zadań w oparciu o cykle życia komponentu.
 
 ### -zad.1
 Metody cyklu życia komponentu. (Sprawdz w inspektorze)
@@ -37,7 +37,16 @@ Przycisk, który zmienia swoje tło po kliknięciu. (imitacja żarówki)
 Menu - po kliknięciu rozwija swoją zawartość
 
 ### -zad.12
-Dwa obiekty które zmieniają rozmiar oraz kolor po najechaniu kursorem, oraz wracają po zjechaniu tym kursorem z jednego z nich
+Objekt który zmienia swój kolor, oraz rozmiar po najechaniu, i wraca do pierwotnego koloru i rozmiaru po 
+zjechaniu kursorem z niego. 
 
 ### -zad.13
-Obliekt który przemieszcza się po najechaniu, z punktu A do punktu B
+Objekt który przemieszcza się po najechaniu, z punktu A do punktu B
+
+### -zad.14
+Mała gra, polegajaca na kliknięciu w guzik jak największą ilość razy w określonym przedziale czasowym, 
+rozpoczynając od pierwszego kliknięcia
+
+### -zad.15
+Dwa obiekty które zmieniają rozmiar oraz kolor po najechaniu kursorem, oraz wracają po zjechaniu tym kursorem z 
+jednego z nich
