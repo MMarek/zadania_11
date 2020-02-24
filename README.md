@@ -23,3 +23,6 @@ Przyciski z napisem `Klik`. Po kliknięciu:
  - Pierwszy: wyświetla napis: `Pierwszy przycisk kliknięty przez Ciebie :)`
  - Drugi: wywołuje funkcje `prompt`, pobierający od użytkownika dwie liczby, a finalnie wyświetlający wynik potęgowania tych liczb
  - Trzeci: wyświetla wysokość, oraz szerokość ekranu
+ 
+### -zad.8
+Przycisk - po najechaniu w konsoli wyświetla się informacja o tej akcji.
