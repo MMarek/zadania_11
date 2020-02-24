@@ -32,3 +32,6 @@ Przycisk - wyświetlający w konsoli co akcje przeprowadzoną na nim
 
 ### -zad.10
 Przycisk, który zmienia swoje tło po kliknięciu. (imitacja żarówki)
+
+### -zad.11
+Menu - po kliknięciu rozwija swoją zawartość

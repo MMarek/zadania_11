@@ -25,7 +25,7 @@ class MobileMenu extends Component {
         return (
             <section className='mobile'>
                 <header className='mobile-menu'>
-                    <a href='#' className='open-menu' onMouseEnter={this.handleOpenMenu}></a>
+                    <a href='#' className='open-menu' onClick={this.handleOpenMenu}></a>
                     <nav className={navClass}>
                     <ul>
                         <li><a href='#'>O nas</a></li>
@@ -33,7 +33,7 @@ class MobileMenu extends Component {
                         <li><a href='#'>Produkty</a></li>
                         <li><a href='#'>Kontakt</a></li>
                     </ul>
-                        <a href='#' className='close-menu' onMouseLeave={this.handleCloseMenu}>Zamknij menu</a>
+                        <a href='#' className='close-menu' onClick={this.handleCloseMenu}>Zamknij menu</a>
                     </nav>
                 </header>
             </section>
