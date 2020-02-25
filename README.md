@@ -70,3 +70,9 @@ Komponent zawierający przycisk który wyświetla wyraz `NIE`, a po jego klikni�
 ### -zad.20
 Komponent losujący liczbę od 0-5, z warunkiem wyświetlania informacji czy 
 wylosowana liczba jest większa, lub mniejsza od 3
+
+### -zad.21
+Wewnątrz JSX użycie operatora trójargumentowego i logicznego `&&` by wyrenderować poniższe elementy: 
+- Liczbę parzystą lub nieparzystą
+- liczba pierwsza
+- potęga liczby 2
