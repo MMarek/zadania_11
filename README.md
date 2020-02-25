@@ -66,3 +66,7 @@ Moduł pozwalający dodawać do listy wypisane pradukty (sklep)
 ### -zad.19
 Komponent zawierający przycisk który wyświetla wyraz `NIE`, a po jego kliknięciu `TAK`, i tak na zmianę. 
 (użycie operatora trójargumentowego wewnątrz JSX)
+
+### -zad.20
+Komponent losujący liczbę od 0-5, z warunkiem wyświetlania informacji czy 
+wylosowana liczba jest większa, lub mniejsza od 3
