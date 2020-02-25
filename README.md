@@ -59,3 +59,6 @@ Trzy guziki:
  
 ### -zad.17
 Komponent/guzik który po kliknięciu przekierowuje na stronę ustaloną www (link)
+
+### -zad.17
+Moduł pozwalający dodawać do listy wypisane pradukty (sklep)

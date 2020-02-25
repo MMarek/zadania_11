@@ -21,7 +21,7 @@ class Shop extends Component {
                 <ShopItem title='koszula' onBuy={this.addToList}/>
                 <ShopItem title='pończochy' onBuy={this.addToList}/>
                 <ul>
-                    {this.state.list.map(el, index) => <li key={index}>{el}</li>)}
+                    {this.state.list.map((el, index) => <li key={index}>{el}</li>)}
                 </ul>
             </div>
         );
