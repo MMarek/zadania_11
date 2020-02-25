@@ -60,5 +60,9 @@ Trzy guziki:
 ### -zad.17
 Komponent/guzik który po kliknięciu przekierowuje na stronę ustaloną www (link)
 
-### -zad.17
+### -zad.18
 Moduł pozwalający dodawać do listy wypisane pradukty (sklep)
+
+### -zad.19
+Komponent zawierający przycisk który wyświetla wyraz `NIE`, a po jego kliknięciu `TAK`, i tak na zmianę. 
+(użycie operatora trójargumentowego wewnątrz JSX)
