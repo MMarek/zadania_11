@@ -7,30 +7,30 @@ class ButtonCounter extends Component{
 
     increaseCounter = () => {
         this.setState({
-            conter: this.state.counter + 1
+            counter: this.state.counter + 1
         })
     };
 
     increaseCounter1 = () => {
         this.setState({
-            conter: this.state.counter - 1
+            counter: this.state.counter - 1
         })
     };
 
     increaseCounter2 = () => {
         this.setState({
-            conter: 0
+            counter: 0
         })
     };
 
     render() {
         return (
             <>
-            <h1>{this.state.counter}</h1>
-        <ButtonToClick counterEvent={this.increaseCounter}/>
-        <ButtonToClick counterEvent={this.increaseCounter1}/>
-        <ButtonToClick counterEvent={this.increaseCounter2}/>
-            </>
+             <h1>{this.state.counter}</h1>
+         <ButtonToClick counterEvent={this.increaseCounter}/>
+         <ButtonToClick counterEvent={this.increaseCounter1}/>
+         <ButtonToClick counterEvent={this.increaseCounter2}/>
+             </>
         )
     }
 }

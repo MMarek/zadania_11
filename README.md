@@ -50,3 +50,9 @@ rozpoczynając od odświeżenia strony
 ### -zad.15
 Dwa obiekty które zmieniają rozmiar oraz kolor po najechaniu kursorem, oraz wracają po zjechaniu tym kursorem z 
 jednego z nich
+
+### -zad.16
+Trzy guziki:
+ - pierwszy: dodaje liczbę do licznika
+ - drugi: odejmuje liczbę od licznika
+ - trzeci: zeruje licznik
