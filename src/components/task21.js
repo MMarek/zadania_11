@@ -7,23 +7,27 @@ class ButtonCounter extends Component {
 
     increaseCounter = () => {
         this.setState({
-            counter: this.state.counter + 1
+            counter: this.state.counter +1
         })
     };
 
     render() {
         return (
             <>
-                <h1>{this.state.counter}</h1>
+            <h1>{this.state.counter}</h1>
+            <ButtonToClick counterEvent={this.increaseCounter}/>
+            <ButtonToClick counterEvent={this.increaseCounter}/>
+            <ButtonToClick counterEvent={"Hello"}/>
             </>
         )
     }
 }
 
-class ButtonToClick extends Component {
+class ButtonToClick extends Component{
 
     handleClick = () => {
-
+        if (typeof this.props.counterEvent === 'function'){
+            this.props.counterEvent();
         }
     };
 
@@ -32,3 +36,8 @@ class ButtonToClick extends Component {
     }
 }
 
+function Task21() {
+    return <ButtonCounter/>
+}
+
+export default Task21;
