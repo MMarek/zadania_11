@@ -56,3 +56,6 @@ Trzy guziki:
  - pierwszy: dodaje liczbę do licznika
  - drugi: odejmuje liczbę od licznika
  - trzeci: zeruje licznik
+ 
+### -zad.17
+Komponent/guzik który po kliknięciu przekierowuje na stronę ustaloną www (link)
