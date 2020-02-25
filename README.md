@@ -45,7 +45,7 @@ Objekt który przemieszcza się po najechaniu, z punktu A do punktu B
 
 ### -zad.14
 Mała gra, polegajaca na kliknięciu w guzik jak największą ilość razy w określonym przedziale czasowym, 
-rozpoczynając od pierwszego kliknięcia
+rozpoczynając od odświeżenia strony
 
 ### -zad.15
 Dwa obiekty które zmieniają rozmiar oraz kolor po najechaniu kursorem, oraz wracają po zjechaniu tym kursorem z 

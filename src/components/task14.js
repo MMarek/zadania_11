@@ -8,14 +8,14 @@ class SpeedClickGame extends Component{
     };
 
     componentDidMount() {
-        this.interval = setInterval(this.calcuatedTime, 500)
+        this.interval = setInterval(this.calculatedTime, 500)
     }
 
     componentWillUnmount() {
         clearInterval(this.interval)
     }
 
-    calcuatedTime = () => {
+    calculatedTime = () => {
         this.setState(
             previousTime => ({
                 time: previousTime.time - 50
@@ -50,7 +50,7 @@ class SpeedClickGame extends Component{
 }
 
 function Task14() {
-    return <SpeedClickGame time={2000}/>
+    return <SpeedClickGame time={4000}/>
 }
 
 export default Task14;
