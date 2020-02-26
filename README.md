@@ -1,4 +1,5 @@
 # Zestaw zadań wykonanych w React. Większość zadań w oparciu o cykle życia komponentu.
+#### Zobacz na: https://mmarek.github.io/zadania_11/
 
 ### -zad.1
 Metody cyklu życia komponentu. (Sprawdz w inspektorze)
