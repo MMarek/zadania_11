@@ -2,7 +2,7 @@ import React, {Component} from "react";
 
 class MobileMenu extends Component {
     state = {
-        open: false
+        open: true
     };
 
     handleOpenMenu = (e) => {

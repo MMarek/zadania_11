@@ -20,7 +20,7 @@ class Modal extends Component{
                 console.log(this.state.modalOpen);
                 console.log(this.state.heading);
             });
-        }, 10000);
+        }); //add time
     }
 
     componentWillUnmount() {
